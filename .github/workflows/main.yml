@@ -26,7 +26,7 @@ jobs:
      uses: actions/upload-artifact@v4
      with:
       name: test-report
-      path: test1.json
+      path: test.json
  build-job3:
   needs: test-job2
   runs-on: ubuntu-latest
